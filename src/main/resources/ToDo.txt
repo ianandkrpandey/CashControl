@@ -1,0 +1,34 @@
+|| AWS Services ||
+
+Create AWS Free Tier Account
+Create EC2 instance for Server and DB Instance
+Dynamo DB Creation
+
+|| Spring Boot ||
+
+Spring Boot Rest Implementation
+Error Handling
+Exception Handling
+Proper Logging - Log4j
+Swagger UI for Frontend Developer
+
+
+|| INFRA ||
+
+Write Terraform Script for creating Aws Infra
+Write Jenkins Jobs for Building and Deploying to EC2 instance
+Github for code commit
+Docker Image for Contaniner
+
+|| Maven Dependencies for Development and Testing ||
+
+Add Dependency for Hibernate Jpa, Swagger, Aws Sdk
+Spring Boot Web Starter
+Spring Boot Jpa
+Swagger UI
+Swagger App
+Log4j
+
+|| DB Tables ||
+
+|| Service List ||
