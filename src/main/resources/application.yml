@@ -1,16 +1,9 @@
 spring:
   profiles:
-    active: "dev"
-    
-    
-    
----
-
-spring:
-  profiles: dev
-  
+    active: dev
+# Swagger Defination   
 swagger:
-  apis: /v1/*
+  apis: /cc/*
   description: Cash Control
   developer:
     contact: anandk@triconinfotech.com
@@ -19,22 +12,29 @@ swagger:
   service:
     url: http://triconinfotech.com
   title: Cash Control
-  version: '1.0'
+  version: '1.0'    
+    
+---
+# All Dev Enviorment configuration and Constants
+spring:
+  profiles: dev
+  
+
   
     
 ---
-
+# All Test Enviorment configuration and Constants
 spring:
   profiles: test
   
   
 ---
-
+# All Non-prod Enviorment configuration and Constants
 spring:
   profiles: non-prod
   
   
 ---
-
+# All Prod Enviorment configuration and Constants
 spring:
   profiles: prod
