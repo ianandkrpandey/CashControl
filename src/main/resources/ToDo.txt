@@ -11,14 +11,16 @@ Error Handling
 Exception Handling
 Proper Logging - Log4j
 Swagger UI for Frontend Developer
+Profiling for - Dev-Qa-NonProd-Prod
+Versioning
 
 
 || INFRA ||
 
-Write Terraform Script for creating Aws Infra
-Write Jenkins Jobs for Building and Deploying to EC2 instance
+Write Terraform Script for creating Aws Infra (Ec2,DynamoDb,Glue)
+Write Jenkins Jobs for Building from Github and Deploying to EC2 instance
 Github for code commit
-Docker Image for Contaniner
+Docker Image for Contaniner Configuration (Linux,Java8,ApacheTomcat8)
 
 || Maven Dependencies for Development and Testing ||
 
@@ -29,6 +31,17 @@ Swagger UI
 Swagger App
 Log4j
 
-|| DB Tables ||
+|| DB Tables and Schema||
+---------------------------------
+For Login Service==> login
+{
+}
+---------------------------------
+UserRole Service ==> For Grant User Role
 
 || Service List ||
+
+Login Service - For Login into Application , fetch data from Login Table
+Admin Service - Only Admin can Login , can add user Assign role , Assign Service to Use
+ActualStatusService - Can return the Actual Balance,SurplusData,Checked Data etc
+VendorListService- Give the 
