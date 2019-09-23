@@ -1,0 +1,40 @@
+spring:
+  profiles:
+    active: "dev"
+    
+    
+    
+---
+
+spring:
+  profiles: dev
+  
+swagger:
+  apis: /v1/*
+  description: Cash Control
+  developer:
+    contact: anandk@triconinfotech.com
+  license:
+    url: http://triconinfotech.com
+  service:
+    url: http://triconinfotech.com
+  title: Cash Control
+  version: '1.0'
+  
+    
+---
+
+spring:
+  profiles: test
+  
+  
+---
+
+spring:
+  profiles: non-prod
+  
+  
+---
+
+spring:
+  profiles: prod
